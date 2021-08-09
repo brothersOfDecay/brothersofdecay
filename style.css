@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a, p, h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 10px 20px 0px 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+header {
+    background-color: #333;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: cyan;
+}
+
+section {
+    padding: 20px;
+}
+
+main {
+    float: left;
+    width: 70%;
+}
+
+main p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    list-style: none;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+aside ul {
+    padding: 0px 20px 0px 20px;
+}
+
+aside ul li {
+    font-size: 1.1rem;
+}
+
+aside p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    padding: 0px 20px 0px 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    width: 100%;
+}
+
+footer p {
+    color:white;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    padding: 0px 10px 0px 10px;
+}
+
+footer a:hover {
+    color: cyan;
+}
