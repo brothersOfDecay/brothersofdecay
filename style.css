@@ -47,6 +47,7 @@ section {
     padding: 20px;
 }
 
+
 main {
     float: left;
     width: 70%;
@@ -98,4 +99,11 @@ footer a {
 
 footer a:hover {
     color: cyan;
+}
+
+img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
 }
